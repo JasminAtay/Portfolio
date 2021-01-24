@@ -4,44 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="card.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Yasemin's Portfolio</title>
 </head>
 <body>
-    <header>
-      <img class="bgimg" src="andy-holmes-rCbdp8VCYhQ-unsplash.jpg">
+    <header id="home">
+      <img class="bgimg" src="img/andy-holmes-rCbdp8VCYhQ-unsplash.jpg">
       <div class="topnav">
-        <a href="#about">About Me</a>
+        <a href="#home">Home</a>
         <a href="#skills">Skills</a>
         <a href="#project">Projects</a>
         <div class="topnav-right">
-          <a href="#home">Home</a>
+        <a href="#about">About Me</a>
         </div>
       </div>
-      <div class="card" id="home">
-        <img src="IMG_1571.jpeg" alt="Yasemin" style="width:100%">
+      <div class="personal-card" >
+        <img src="img/IMG_1571.jpeg" alt="Yasemin" style="width:100%">
         <h1>Yasemin Atayun</h1> <br>
         <p class="title">Web Developer & Designer</p><br>
-        <!-- <p>Harvard University</p> -->
         <a href="https://github.com/JasminAtay"><i class="fa fa-github"></i></a>
         <a href="https://twitter.com/AtayJasmin"><i class="fa fa-twitter"></i></a>
-        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="https://www.linkedin.com/in/jasmin-atay/"><i class="fa fa-linkedin"></i></a>
         <a href="mailto:yasematayy@gmail.com"><i class="fa fa-mail-forward"></i></a>
         <br>
         <p><button>Contact</button></p>
       </div> 
     </header>
     <main>
-      <div class="main">
-        <div class="box" id="project">
-
+      <p id="skills"></p>
+      <hr style="padding-top: 100px;">
+      <div class="skill-container" >
+        <h1>My Skills</h1>
+        <div class="list-container">
+          <div class="fe Skill">
+            <ul>
+              <li>Frontend Development</li>
+              <li>Web Development</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <div class="be Skill">
+            <ul>
+              <li>JAVA Core</li>
+              <li>Algorithm with JAVA</li>
+            </ul>
+          </div>
+          <div class="other Skill">
+            <ul>
+              <li>GitHub</li>
+            </ul>
+          </div>
         </div>
-        <div class="box2" id="#skills">
-
+      </div>
+      <hr style="padding: 10px;">
+      <div class="project" id="project" >
+        <h1>My Projects</h1>
+        <div class="project-container">
+          <div class="card-container">
+            <div class="card1 card">
+              <a href="https://jasminatay.github.io/Profile./"><img src="img/profileimg.png" height="200px" alt="profile img"></a>
+            </div>
+            <div class="card2 card">
+              <article>
+                <h1>My Profile</h1> 
+                <p>I'm junior Web Developer and this is my first project.</p>
+              </article>
+              <div class="card2-footer">
+                <span>#HTML #CSS</span>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="box2" id="#about">
-
-        </div>
+        <!-- <div class="project-container">
+          <div class="card-container">
+            <div class="card1 card">
+              <a href="https://jasminatay.github.io/Profile./"><img src="img/profileimg.png" height="200px" alt="profile img"></a>
+            </div>
+            <div class="card2 card">
+              <article>
+                <h1>My Profile</h1> 
+                <p>This is my first project</p>
+              </article>
+              <div class="card2-footer">
+                <span>#HTML #CSS</span>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <div class="box2" id="about">
+        <p style="margin: 0px 20px;">
+          ABOUT ME
+        </p>
+        
       </div>
     </main>
     <footer>
