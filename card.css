@@ -1,35 +1,3 @@
-/* .project-container{
-  display: flex;
-  height: 100vh;
-}
-.card1{
-    box-sizing: border-box;
-    display: flex;
-    flex: 1;
-    position: relative;
-    height: 300px;
-    width: 600px;
-    border-radius: 47px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  
-  }
-    .project1{
-    position: absolute;
-    background: #e0e0e0;
-    box-shadow: -12px 12px 5px #bebebe,
-    12px -12px 5px #ffffff;
-    
-  }
-  div.project1 > a{
-    position: absolute;
-    border-radius: 47px;
-    background: #e0e0e0;
-    box-shadow: -12px 12px 5px #bebebe,
-                12px -12px 5px #ffffff;
-  } */
-
 body{
     margin: 0;
     padding: 0;
@@ -56,7 +24,7 @@ body{
 }
 .Skill{
     
-    margin: 25px;
+    margin: 20px;
     padding: 25px;
     height: 200px;
     border-radius: 20px;
@@ -64,11 +32,26 @@ body{
     box-shadow: -12px 12px 5px #bebebe,
                 12px -12px 5px #ffffff;
 }
+.learning {
+    
+    margin: 20px;
+    padding: 25px;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    background: #e0e0e0;
+    box-shadow: -12px 12px 5px #bebebe,
+                12px -12px 5px #ffffff;
+    font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", 
+                "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", 
+                "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+}
 .project-container{
+    margin-top: 30px;
     box-sizing: border-box;
     display: flex;
     background-color: transparent;
-    height: 100vh;
+    height: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;

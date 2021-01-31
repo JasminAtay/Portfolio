@@ -103,6 +103,24 @@ button:hover, a:hover {
   font-weight: 700; 
   line-height: 26.4px;
 }
+.about{
+  border: 5px  solid #bebebe;
+  padding-top: 20px;
+  justify-self: center;
+  justify-items: center;
+  height: 130px;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  font-size: large;
+  line-height: 20px;
+}
+.about > h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about > p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .footer-header{
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   font-size: 14px;
