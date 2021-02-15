@@ -91,3 +91,100 @@ article > h1{
 card2-footer{
     bottom: 0;
 }
+@media only screen and (min-width: 768px){
+    body{
+        margin: 0;
+        padding: 0;
+    
+    }  
+    .skill-container{
+        box-sizing: border-box;
+        display: flex;
+        background-color: transparent;
+        height: 70vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    .list-container{
+        position: relative;
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        background-color: transparent;
+        font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", 
+                    "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", 
+                    "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+    }
+    .Skill{
+        
+        margin: 20px;
+        padding: 25px;
+        height: 200px;
+        border-radius: 20px;
+        background: #e0e0e0;
+        box-shadow: -12px 12px 5px #bebebe,
+                    12px -12px 5px #ffffff;
+    }
+    .learning {
+        
+        margin: 20px;
+        padding: 25px;
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+        background: #e0e0e0;
+        box-shadow: -12px 12px 5px #bebebe,
+                    12px -12px 5px #ffffff;
+        font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", 
+                    "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", 
+                    "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+    }
+    .project-container{
+        margin-top: 30px;
+        box-sizing: border-box;
+        display: flex;
+        background-color: transparent;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-container{
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        background-color: transparent;
+        align-items: center;
+        width: auto;
+    }
+    .card{
+        margin: 10px;
+        height: 250px;
+        width: auto;
+        border-radius: 20px;
+        background: #e0e0e0;
+        box-shadow: -12px 12px 5px #bebebe,
+                    12px -12px 5px #ffffff;
+    }
+    .card1 {
+        flex-grow: 3;
+        width: 50%;
+    }
+    .card2 {
+        flex-grow: 1;
+        width: 50%;
+        justify-items: center;
+        text-align: center;
+        justify-content: center;
+        font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", 
+                    "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", 
+                    "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+    }
+    article > h1{
+        font-size: 30px;
+    }
+    card2-footer{
+        bottom: 0;
+    }
+}
